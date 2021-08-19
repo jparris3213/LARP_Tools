@@ -19,3 +19,11 @@ nav a{
 nav a::before, nav a::after {
     content: "|"
 }
+
+nav .links{
+    display:inline-flex;
+    margin-left: 50%;
+}
+nav a:hover{
+    background-color: white;
+}
